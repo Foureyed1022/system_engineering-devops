@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Create empty file hello
+touch hello
