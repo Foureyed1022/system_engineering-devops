@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # displays a message when receiving a SIGTERM signal
-trap 'echo "I am invincible!!!"' TERM
+
+trap "echo I am invincible!!!" SIGTERM
 
 while true
 do
